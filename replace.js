@@ -30,7 +30,7 @@ module.exports=function(template,json){
     // json=JSON.parse(json);
   
     var productAt0=json[0];
-    console.log(typeof json);
+    // console.log(typeof json);
     let htmlTemplate = template;
     let output=htmlTemplate.replace(/{%PRODUCTNAME%}/g,json["productName"]);
      output=output.replace(/{%IMAGE%}/g,json["image"]);

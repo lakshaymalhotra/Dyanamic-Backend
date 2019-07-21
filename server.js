@@ -82,7 +82,7 @@ var server = http.createServer(function(req, res) {
   // console.log(url.parse(path,true));
 
   var id=url.parse(path,true).query.id;
-  console.log(id);
+//   console.log(id);
    var path=url.parse(path,true).pathname;
   
   // console.log( path);
